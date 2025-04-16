@@ -22,7 +22,7 @@ Checks: >
   -readability-identifier-length
 
 WarningsAsErrors: ''
-HeaderFilterRegex: '.*(Common|SparseBindingTest|Tests|VmaUsage|VulkanSample)\.(cpp|h)$|.*vk_mem_alloc\.h$'
+HeaderFilterRegex: '.*\.(cpp|h)$'
 FormatStyle: file
 AnalyzeTemporaryDtors: true
 CheckOptions:
